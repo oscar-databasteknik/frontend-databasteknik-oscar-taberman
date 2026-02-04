@@ -1,0 +1,70 @@
+.header {
+    background-color: rgb(56, 201, 64);
+    border: 2px inset rgb(45, 163, 51);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+    .container {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        align-items: center;
+
+        .logo {
+
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+
+            i {
+                font-size: 2em;
+            }
+
+            span {
+                font-size: 1.5rem;
+            }
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+
+            .nav-links {
+                display: flex;
+                gap: 1.5rem;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                .nav-link a {
+                    text-decoration: none;
+                    color: white;
+                    font-weight: 500;
+
+                    &:hover {
+                        font-weight: 700;
+                    }
+
+                    &.active {
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+        .links {
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+
+            a {
+                color: white;
+                text-decoration: none;
+                font-size: 1.5rem;
+
+            }
+        }
+
+
+    }
+}
